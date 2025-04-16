@@ -1,0 +1,7 @@
+\makeatletter
+\newcommand*{\smaller}{\@setfontsize{\smaller}{10.5}{12}}   % Adjust the font size as needed
+\makeatother
+
+\makeatletter
+\newcommand*{\subsmaller}{\@setfontsize{\smaller}{9.5}{11}}   % Adjust the font size as needed
+\makeatother
