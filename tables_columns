@@ -1,0 +1,38 @@
+\usepackage{threeparttable} % table footnotes
+\usepackage{multirow}
+\usepackage{array}
+
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}} % Centered vertical alignment
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.1}
+\caption{...}
+\begin{tabular}{M{1.8cm}M{1.1cm}M{0.9cm}M{3.6cm}M{3.1cm}M{1cm}}
+\toprule
+  &   & -- & -- & -- & -- \\
+\toprule
+\multirow{4}{*}{--} & -- & -- & -- & -- & --\\
+& -- & -- & -- & -- & -- \\
+& -- & -- & -- & -- & -- \\
+& -- & -- & -- & -- & -- \\
+\hline
+\multirow{4}{*}{--} & -- & -- & -- & -- & -- \\
+& -- & -- & -- & -- & -- \\
+& -- & -- & -- & -- & -- \\
+& -- & -- & -- & -- & -- \\
+\hline
+\multirow{4}{*}{--} & -- & -- & -- & -- & -- \\
+& -- & -- & -- & -- & -- \\
+& -- & -- & -- & -- & --  \\
+& -- & -- & -- & -- & -- \\
+\hline
+\multirow{4}{*}{--} & -- & -- & -- & -- & -- \\
+& -- & -- & -- & -- & -- \\
+& -- & -- & -- & -- & -- \\
+& -- & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\label{tab:}
+\end{table}
